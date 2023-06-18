@@ -1,0 +1,38 @@
+@import "colors";
+nav{
+
+
+    display:flex;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: $first;
+    top: 0;
+    z-index: 10;
+    > h1 {
+   
+        text-transform: uppercase;
+        color: $second;
+        font-size: 1.8rem;
+
+    }
+    >main{
+
+     width: 70%;
+     display: flex;
+     justify-content: flex-end;
+
+
+> a{
+
+  margin: 0 1rem;
+  color: $second;
+  font-size: 1.2rem;
+  font-weight: 900;
+ font-family: cursive;
+}
+    }
+    
+}
